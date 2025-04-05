@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organization Website</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      #mainCarousel {
+        height: 200px;
+      }
+      #mainCarousel .carousel-item img {
+        height: 200px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="left">
+        <span><i class="fas fa-phone"></i> ०२१६६-२२२२१४ </span>
+        <span><i class="fas fa-envelope"></i> phaltanbdo@gmail.com </span>
+        <span
+          ><i class="far fa-clock"></i> कार्यालयीन वेळ : सोम. ते शुक्र. स. ९.४५
+          वा ते संध्या ६.१५ वा.</span
+        >
+      </div>
+      <div class="right">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <!-- Logo Bar -->
+    <div class="logo-bar">
+      <div class="left">
+        <img src="images/State_logo.png" alt="Left Logo" />
+      </div>
+      <div class="center">
+        <img
+          src="images/zp-logo.jpg"
+          alt="Org Logo"
+          style="height: 100px; vertical-align: middle"
+        />
+        <span>पंचायत समिती फलटण </span>
+      </div>
+      <div class="right">
+        <img src="images/Rajybhishekh.png" alt="Right Logo" />
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html"> मुखपृष्ठ </a></li>
+        <li>
+          <a href="#"> तालुक्याविषयी </a>
+          <ul>
+            <li><a href="#">सर्वसाधारण माहिती</a></li>
+            <li><a href="#">तालुक्याचा इतिहास</a></li>
+            <li>
+              <a href="#">तालुक्याचे लोक प्रतिनिधी</a>
+              <ul>
+                <li><a href="#">राज्यसभा सदस्य</a></li>
+                <li><a href="#">लोकसभा सदस्य </a></li>
+                <li><a href="#">विधान परिषद सदस्य </a></li>
+                <li><a href="#">विधानसभा सदस्य </a></li>
+              </ul>
+            </li>
+            <li><a href="#">नकाशा</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">पंचायत समिती </a>
+          <ul>
+            <li><a href="#">पंचायत समिती विषयी</a></li>
+            <li><a href="#"> रचना व प्रशासन </a></li>
+            <li><a href="#">ग्रामपंचायत</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">मान्यवर व अधिकारी </a>
+          <ul>
+            <li><a href="manyavar.html">मान्यवर</a></li>
+            <li><a href="ps-sadasya.html">पंचायत समितीचे सदस्य</a></li>
+            <li><a href="ps-adhikari.html">पंचायत समितीचे अधिकारी</a></li>
+            <li><a href="gram-adhikari.html">ग्रामपंचायत अधिकारी</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">विभाग </a>
+          <ul>
+            <li><a href="#">सामान्य प्रशासन</a></li>
+            <li><a href="#">ग्रामपंचायत विभाग </a></li>
+            <li><a href="#">जिल्हा ग्रामीण विकास यंत्रणा</a></li>
+            <li><a href="#">अर्थ विभाग</a></li>
+            <li><a href="#">शिक्षण विभाग</a></li>
+            <li><a href="#">समाज कल्याण विभाग</a></li>
+            <li><a href="#">महिला व बालकल्याण विभाग</a></li>
+            <li><a href="#">पशुसंवर्धन विभाग</a></li>
+            <li><a href="#">कृषी विभाग</a></li>
+            <li><a href="#">ग्रामीण पाणी पुरवठा विभाग</a></li>
+            <li><a href="#">बांधकाम विभाग</a></li>
+            <li><a href="#">आरोग्य विभाग</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">नवीन घडामोडी </a></li>
+        <li><a href="#">परिपत्रके/आदेश </a></li>
+        <li>
+          <a href="#">माहितीचा अधिकार </a>
+          <ul>
+            <li><a href="#">माहितीचा अधिकार कागदपत्रे</a></li>
+            <li><a href="#">माहितीचा अधिकार संपर्क</a></li>
+            <li><a href="#">नागरिकांचा सनद</a></li>
+          </ul>
+        </li>
+        <li><a href="#">संपर्क </a></li>
+      </ul>
+    </nav>
+
+    <!-- Bootstrap Carousel -->
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/ps-phaltan.jpg"
+            class="d-block w-100"
+            alt="Slide 1"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-4">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <h4 class="mb-0">कर्मचारी यादी</h4>
+      </div>
+
+      <div class="table-responsive">
+        <table id="employeeTable" class="table table-striped table-bordered">
+          <thead style="background-color: #5469dc !important; color: white">
+            <tr>
+              <th scope="col">अं.क्र.</th>
+              <th scope="col">नाव</th>
+              <th scope="col">विभाग</th>
+              <th scope="col">पद</th>
+              <th scope="col">संपर्क</th>
+              <th scope="col">ई-मेल</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>राजेश पाटील</td>
+              <td>संगणक</td>
+              <td>प्रशासक</td>
+              <td>9876543210</td>
+              <td>rajesh.patil@example.com</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>स्नेहा देशमुख</td>
+              <td>लेखा</td>
+              <td>वरिष्ठ अधिकारी</td>
+              <td>9123456789</td>
+              <td>sneha.deshmukh@example.com</td>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer>
+      <!-- Top Section -->
+      <div style="background-color: #3c3c7a; color: white" class="pt-5 pb-3">
+        <div class="container">
+          <div class="row">
+            <!-- Column 1 -->
+            <div class="col-md-3 mb-4">
+              <h5 class="fw-bold mb-3">जि. प. विकसित केलेल्या प्रणाली</h5>
+              <ul class="list-unstyled small">
+                <li>
+                  🌐 सुशिक्षित बेरोजगार अभियंता आणि मजूर सहकारी संस्था कामवाटप
+                  सॉफ्टवेअर
+                </li>
+              </ul>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-md-3 mb-4">
+              <h5 class="fw-bold mb-3">राष्ट्रस्तरीय लिंकस</h5>
+              <ul class="list-unstyled small">
+                <li>
+                  <a
+                    href="https://www.sci.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 सर्वोच्च न्यायालय, दिल्ली</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.india.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 भारत सरकार</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.pmindia.gov.in/en/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 पंतप्रधान कार्यालय</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.eci.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 भारतीय निवडणूक आयोग</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://uidai.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 आधार कार्ड पोर्टल</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.mygov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 मेरी सरकार पोर्टल</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.digilocker.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 डिजिटल लॉकर पोर्टल</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="col-md-3 mb-4">
+              <h5 class="fw-bold mb-3">राज्यस्तरीय लिंकस</h5>
+              <ul class="list-unstyled small">
+                <li>
+                  <a
+                    href="https://bombayhighcourt.nic.in/index.php"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 मुंबई उच्च न्यायालय</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.maharashtra.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 महाराष्ट्र शासन</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://mahasec.maharashtra.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 महाराष्ट्र राज्य निवडणूक आयोग</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://rdd.maharashtra.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 ग्रामविकास व पंचायत राज विभाग</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://aaplesarkar.maharashtra.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 आपले सरकार पोर्टल</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://mahatenders.gov.in/nicgep/app"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 महाTET</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://mahaonline.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 महाऑनलाइन</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Column 4 -->
+            <div class="col-md-3 mb-4">
+              <h5 class="fw-bold mb-3">जिल्हास्तरीय लिंकस</h5>
+              <ul class="list-unstyled small">
+                <!--  <li>
+                  <a href="#" class="footerLinks" target="_blank"
+                    >🌐 विभागीय आयुक्त कार्यालय</a
+                  >
+                </li>-->
+                <li>
+                  <a
+                    href="https://www.zpsatara.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 जिल्हाधिकारी कार्यालय</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.satarapolice.gov.in/"
+                    class="footerLinks"
+                    target="_blank"
+                    >🌐 जिल्हा पोलीस यंत्रणा</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div
+        style="background-color: #000000; color: white"
+        class="text-center py-3"
+      >
+        <div class="container">
+          <!--<p class="mb-2 fw-semibold fs-6">
+            Visitor Count:
+            <span class="bg-white text-dark px-2 py-1 rounded">0</span>
+          </p>-->
+          <p class="small mb-1">
+            कॉपीराईट © २०२५ फलटण पंचायत समिती. सर्व अधिकार राखीव.
+          </p>
+          <p class="small mb-1">
+            Terms & Conditions | Privacy Policy | Copyright Policy |
+            Hyperlinking Policy | Accessibility Statement | Disclaimer | Help
+          </p>
+          <p class="small mb-1">Designed & Developed by Systums</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
