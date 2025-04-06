@@ -63,7 +63,7 @@
     <!-- Navbar -->
     <nav class="navbar">
       <ul>
-        <li><a href="index.html"> मुखपृष्ठ </a></li>
+        <li><a class="active" href="index.html"> मुखपृष्ठ </a></li>
         <li>
           <a href="#"> तालुक्याविषयी </a>
           <ul>
@@ -121,7 +121,7 @@
         <li><a href="#">नवीन घडामोडी </a></li>
         <li><a href="#">परिपत्रके/आदेश </a></li>
         <li>
-          <a class="active" href="#">माहितीचा अधिकार </a>
+          <a href="#">माहितीचा अधिकार </a>
           <ul>
             <li>
               <a href="rightToInformation.html">माहितीचा अधिकार कागदपत्रे</a>
@@ -153,58 +153,89 @@
 
     <div class="container my-4">
       <div class="d-flex justify-content-between align-items-center mb-2">
-        <h4 class="mb-0">माहितीचा अधिकार कागदपत्रे</h4>
+        <h4 class="mb-0"></h4>
       </div>
+    </div>
 
-      <div class="table-responsive">
-        <table id="employeeTable" class="table table-striped table-bordered">
-          <thead style="background-color: #5469dc !important; color: white">
-            <tr>
-              <th class="trhead" scope="col">अं.क्र.</th>
-              <th class="trhead" scope="col">विभाग</th>
-              <th class="trhead" scope="col">डाऊनलोड</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>१</td>
-              <td>सामान्य प्रशासन</td>
-              <td><span class="fa fa-download text-success"></span></td>
-            </tr>
-            <tr>
-              <td>२</td>
-              <td>अर्थ विभाग</td>
-              <td><span class="fa fa-download text-success"></span></td>
-            </tr>
-            <tr>
-              <td>३</td>
-              <td>ग्रामपंचायत विभाग</td>
-              <td><span class="fa fa-download text-success"></span></td>
-            </tr>
-            <tr>
-              <td>४</td>
-              <td>जिल्हा ग्रामीण विकास यंत्रणा</td>
-              <td><span class="fa fa-download text-success"></span></td>
-            </tr>
-            <tr>
-              <td>५</td>
-              <td>समाज कल्याण विभाग</td>
-              <td><span class="fa fa-download text-success"></span></td>
-            </tr>
-            <tr>
-              <td>६</td>
-              <td>आरोग्य विभाग</td>
-              <td><span class="fa fa-download text-success"></span></td>
-            </tr>
-            <tr>
-              <td>७</td>
-              <td>कृषी विभाग</td>
-              <td><span class="fa fa-download text-success"></span></td>
-            </tr>
-            <!-- Add more rows as needed -->
-          </tbody>
-        </table>
-      </div>
+    <div class="container sitemap">
+      <h1>साईटमॅप</h1>
+      <nav class="">
+        <ul>
+          <li><a class="active" href="index.html">मुखपृष्ठ</a></li>
+          <li>
+            <a href="#">तालुक्याविषयी</a>
+            <ul>
+              <li><a href="#">सर्वसाधारण माहिती</a></li>
+              <li><a href="#">तालुक्याचा इतिहास</a></li>
+              <li>
+                <a href="#">तालुक्याचे लोक प्रतिनिधी</a>
+                <ul>
+                  <li><a href="#">राज्यसभा सदस्य</a></li>
+                  <li><a href="#">लोकसभा सदस्य</a></li>
+                  <li><a href="#">विधान परिषद सदस्य</a></li>
+                  <li><a href="#">विधानसभा सदस्य</a></li>
+                </ul>
+              </li>
+              <li><a href="#">नकाशा</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">पंचायत समिती</a>
+            <ul>
+              <li><a href="#">पंचायत समिती विषयी</a></li>
+              <li><a href="#">रचना व प्रशासन</a></li>
+              <li><a href="#">ग्रामपंचायत</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">मान्यवर व अधिकारी</a>
+            <ul>
+              <li><a href="manyavar.html">मान्यवर</a></li>
+              <li><a href="ps-sadasya.html">पंचायत समितीचे सदस्य</a></li>
+              <li><a href="ps-adhikari.html">पंचायत समितीचे अधिकारी</a></li>
+              <li><a href="gram-adhikari.html">ग्रामपंचायत अधिकारी</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">विभाग</a>
+            <ul>
+              <li><a href="#">सामान्य प्रशासन</a></li>
+              <li><a href="gram-panchayat-dept.html">ग्रामपंचायत विभाग</a></li>
+              <li><a href="#">जिल्हा ग्रामीण विकास यंत्रणा</a></li>
+              <li><a href="vitta-dept.html">अर्थ विभाग</a></li>
+              <li><a href="shikshan-dept.html">शिक्षण विभाग</a></li>
+              <li><a href="samajkalyan-dept.html">समाज कल्याण विभाग</a></li>
+              <li>
+                <a href="mahila-baalkalyan-dept.html"
+                  >महिला व बालकल्याण विभाग</a
+                >
+              </li>
+              <li><a href="#">पशुसंवर्धन विभाग</a></li>
+              <li><a href="#">कृषी विभाग</a></li>
+              <li><a href="#">ग्रामीण पाणी पुरवठा विभाग</a></li>
+              <li><a href="#">बांधकाम विभाग</a></li>
+              <li><a href="#">आरोग्य विभाग</a></li>
+            </ul>
+          </li>
+          <li><a href="#">नवीन घडामोडी</a></li>
+          <li><a href="#">परिपत्रके/आदेश</a></li>
+          <li>
+            <a href="#">माहितीचा अधिकार</a>
+            <ul>
+              <li>
+                <a href="rightToInformation.html">माहितीचा अधिकार कागदपत्रे</a>
+              </li>
+              <li>
+                <a href="rightToInformation-contacts.html"
+                  >माहितीचा अधिकार संपर्क</a
+                >
+              </li>
+              <li><a href="nagarikSanad.html">नागरिकांचा सनद</a></li>
+            </ul>
+          </li>
+          <li><a href="contactus.html">संपर्क</a></li>
+        </ul>
+      </nav>
     </div>
 
     <footer>
