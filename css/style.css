@@ -75,6 +75,11 @@ body {
   background-color: #5469dc;
 }
 
+.navbar a.active {
+  background-color: #5469dc !important;
+  color: white !important;
+}
+
 /* Dropdown Menu */
 .navbar ul li ul {
   position: absolute;
@@ -94,6 +99,8 @@ body {
   left: 100%;
   top: 0;
 }
+
+
 
 /* Carousel Height */
 #mainCarousel {
@@ -215,4 +222,38 @@ marquee {
 .trhead {
   background-color: #5469dc !important;
   color: white !important;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3c3c7a;
+}
+
+.sitemap ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.sitemap a {
+  color: #3c3c7a;
+  text-decoration: none;
+  display: block;
+  padding: 4px 0;
+  transition: 0.3s ease;
+}
+
+.sitemap a:hover {
+  text-decoration: underline;
+  color: #5469dc;
+}
+
+.sitemap li {
+  margin: 4px 0;
+}
+
+.sitemap ul ul {
+  margin-left: 20px;
+  border-left: 2px dotted #ccc;
+  padding-left: 10px;
 }
