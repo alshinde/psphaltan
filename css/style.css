@@ -211,3 +211,8 @@ marquee {
   color: aliceblue;
   text-decoration: none;
 }
+
+.trhead {
+  background-color: #5469dc !important;
+  color: white !important;
+}
