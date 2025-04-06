@@ -21,6 +21,52 @@
         height: 200px;
         object-fit: cover;
       }
+      h2,
+      h4 {
+        color: #3c3c7a;
+      }
+      .section-title {
+        background-color: #5469dc;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-top: 30px;
+      }
+      .subsection-title {
+        color: #5469dc;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+      .content-box {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        background: #fff;
+      }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: left;
+        vertical-align: top;
+      }
+      .section {
+        margin-bottom: 40px;
+      }
+      .nested {
+        margin-left: 20px;
+      }
+      .highlight {
+        background-color: #e6ffe6;
+        padding: 10px;
+        border-left: 5px solid #2e7d32;
+      }
     </style>
   </head>
   <body>
@@ -98,15 +144,17 @@
           </ul>
         </li>
         <li>
-          <a href="#">विभाग </a>
+          <a class="active" href="#">विभाग </a>
           <ul>
             <li><a href="#">सामान्य प्रशासन</a></li>
-            <li><a href="#">ग्रामपंचायत विभाग </a></li>
+            <li><a href="gram-panchayat-dept.html">ग्रामपंचायत विभाग </a></li>
             <li><a href="#">जिल्हा ग्रामीण विकास यंत्रणा</a></li>
-            <li><a href="#">अर्थ विभाग</a></li>
-            <li><a href="#">शिक्षण विभाग</a></li>
-            <li><a href="#">समाज कल्याण विभाग</a></li>
-            <li><a href="#">महिला व बालकल्याण विभाग</a></li>
+            <li><a href="vitta-dept.html">अर्थ विभाग</a></li>
+            <li><a href="shikshan-dept.html">शिक्षण विभाग</a></li>
+            <li><a href="samajkalyan-dept.html">समाज कल्याण विभाग</a></li>
+            <li>
+              <a href="mahila-baalkalyan-dept.html">महिला व बालकल्याण विभाग</a>
+            </li>
             <li><a href="#">पशुसंवर्धन विभाग</a></li>
             <li><a href="#">कृषी विभाग</a></li>
             <li><a href="#">ग्रामीण पाणी पुरवठा विभाग</a></li>
@@ -120,9 +168,7 @@
         <li>
           <a href="#">माहितीचा अधिकार </a>
           <ul>
-            <li>
-              <a href="rightToInformation.html">माहितीचा अधिकार कागदपत्रे</a>
-            </li>
+            <li><a href="#">माहितीचा अधिकार कागदपत्रे</a></li>
             <li><a href="#">माहितीचा अधिकार संपर्क</a></li>
             <li><a href="#">नागरिकांचा सनद</a></li>
           </ul>
@@ -143,46 +189,46 @@
         </div>
       </div>
     </div>
+    <hr />
+    <main class="container">
+      <div class="row g-5">
+        <div class="col-md-12">
+          <div class="container">
+            <h2 class="text-center">समाज कल्याण विभाग</h2>
 
-    <div class="container my-4">
-      <div class="d-flex justify-content-between align-items-center mb-2">
-        <h4 class="mb-0">ग्रामपंचायत अधिकारी</h4>
-      </div>
+            <div class="content-box">
+              <!-- विभागाविषयी -->
+              <div>
+                <h4 class="section-title">जिल्हा समाज कल्याण विभाग</h4>
 
-      <div class="table-responsive">
-        <table id="employeeTable" class="table table-striped table-bordered">
-          <thead>
-            <tr>
-              <th class="trhead" scope="col">अं.क्र.</th>
-              <th class="trhead" scope="col">नाव</th>
-              <th class="trhead" scope="col">विभाग</th>
-              <th class="trhead" scope="col">पद</th>
-              <th class="trhead" scope="col">संपर्क</th>
-              <th class="trhead" scope="col">ई-मेल</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>राजेश पाटील</td>
-              <td>संगणक</td>
-              <td>प्रशासक</td>
-              <td>9876543210</td>
-              <td>rajesh.patil@example.com</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>स्नेहा देशमुख</td>
-              <td>लेखा</td>
-              <td>वरिष्ठ अधिकारी</td>
-              <td>9123456789</td>
-              <td>sneha.deshmukh@example.com</td>
-            </tr>
-            <!-- Add more rows as needed -->
-          </tbody>
-        </table>
+                <h5 class="subsection-title">1.1 व 1.2 परिचय व दृष्टीकोन:-</h5>
+                <p>
+                  सातारा जिल्हा परिषदेमध्ये समाज कल्याण विभाग कार्यरत असून या
+                  विभागाच्या माध्यमातून सातारा जिल्हयामधील ग्रामिण भागामधील
+                  मागासवर्गीय समाजातील व्यक्तीं तसेच ग्रामीण भागातील दिव्यांग
+                  व्यक्तीच्या राहणीमानात बदल व्हावा तसेच त्यांचा – शैक्षणिक –
+                  सामाजिक– कौटुंबिक –आर्थिक सबलीकरण– राहणीमान इत्यादी
+                  सर्वसमावेशक बदल घडणेच्या उददेशाने विविध विकास योजनांच्या
+                  माध्यमातून सर्वांगिक विकास होणेच्या दृष्टीने कामकाज केले जाते.
+                </p>
+
+                <h5 class="subsection-title">1.3) उद्दिष्ट आणि कार्य :-</h5>
+                <p>
+                  सातारा जिल्हयामधील ग्रामिण भागातील मागाववर्गीय तसेच दिव्यांग
+                  लाभार्थींकरीता , जिल्हा परिषद / शासनाच्या माध्यमातून
+                  राबविण्यात येणाऱ्या विविध योजना यांची माहिती पुरविणे, केंद्र
+                  शासन, राज्य शासन,जिल्हा परिषदेच्या स्वनिधीमधून राबविणेत
+                  येणा–या योजनांचे लाभ देणे. मागासवर्गीय घटकातील व्यक्ती ,
+                  विदयार्थी व दिव्यांग व्यक्तींसाठी विविध लाभकारी योंनांव्दाने
+                  वितरीत केला जाणारा लाभ ( DBT ) व्दारे थेट लाभार्थी खात्यामध्ये
+                  अनुदान वर्ग करणेत येते.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </main>
 
     <footer>
       <!-- Top Section -->
