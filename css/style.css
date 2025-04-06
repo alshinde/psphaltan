@@ -5,17 +5,31 @@ body {
 
 /* Top Bar */
 .top-bar {
-  background-color: #eee;
-  padding: 5px 20px;
-  display: flex;
-  justify-content: space-between;
+  background-color: #f8f9fa;
   font-size: 14px;
+  padding: 5px 0;
 }
 .top-bar .left,
 .top-bar .right {
   display: flex;
   align-items: center;
-  gap: 15px;
+  flex-wrap: wrap;
+}
+.top-bar .right a {
+  margin-left: 10px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .top-bar .left,
+  .top-bar .right {
+    justify-content: center;
+    margin: 5px 0;
+  }
 }
 
 /* Logo Bar */
@@ -256,4 +270,37 @@ h1 {
   margin-left: 20px;
   border-left: 2px dotted #ccc;
   padding-left: 10px;
+}
+
+
+
+
+
+
+/* Nav bar  */
+
+.navbar-custom {
+  background-color: #3c3c7a;
+}
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: white;
+  margin-right: 20px;
+}
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-item:hover {
+  background-color: #5469dc;
+  color: white;
+}
+.navbar-custom .nav-link.active {
+  background-color: #5469dc;
+}
+.dropdown-menu {
+  background-color: #3c3c7a;
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:hover {
+  background-color: #5469dc;
 }

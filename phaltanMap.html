@@ -21,35 +21,6 @@
         height: 200px;
         object-fit: cover;
       }
-
-      @media (min-width: 992px) {
-        .row-cols-lg-4 > * {
-          flex: 0 0 auto;
-          width: 16%;
-        }
-      }
-      .card img {
-        object-fit: cover;
-      }
-      .card-title {
-        font-size: 1.1rem;
-        font-weight: bold;
-      }
-      .card-text {
-        font-size: 0.95rem;
-        color: #555;
-      }
-      .thumbnail {
-        background: #fbfbfb;
-        border: 1px solid #d5d5d5;
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        border-radius: 2px;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-        text-align: -webkit-center;
-      }
     </style>
   </head>
   <body>
@@ -108,7 +79,7 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle active"
                 href="#"
                 id="navbarDropdown1"
                 role="button"
@@ -149,7 +120,7 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle active"
+                class="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdown2"
                 role="button"
@@ -289,7 +260,7 @@
       <ul>
         <li><a href="index.html"> मुखपृष्ठ </a></li>
         <li>
-          <a href="#"> तालुक्याविषयी </a>
+          <a class="active" href="#"> तालुक्याविषयी </a>
           <ul>
             <li><a href="#">सर्वसाधारण माहिती</a></li>
             <li><a href="#">तालुक्याचा इतिहास</a></li>
@@ -314,7 +285,7 @@
           </ul>
         </li>
         <li>
-          <a class="active" href="#">मान्यवर व अधिकारी </a>
+          <a href="#">मान्यवर व अधिकारी </a>
           <ul>
             <li><a href="manyavar.html">मान्यवर</a></li>
             <li><a href="ps-sadasya.html">पंचायत समितीचे सदस्य</a></li>
@@ -360,7 +331,7 @@
         </li>
         <li><a href="contactus.html">संपर्क </a></li>
       </ul>
-    </nav>  -->
+    </nav> -->
 
     <!-- Bootstrap Carousel -->
     <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -375,115 +346,11 @@
       </div>
     </div>
 
-    <div class="container py-5">
-      <h2 class="text-center mb-4">माननीय लोकप्रतिनिधी</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
-        <!-- Card 1 -->
-        <div class="col">
-          <div class="card h-100 text-center shadow-sm">
-            <a href="#" class="thumbnail">
-              <img
-                src="images/manyavar/1.jpg"
-                class="card-img-top"
-                alt="Leader 1"
-            /></a>
-            <div class="card-body">
-              <h5 class="card-title">सी. पी. राधाकृष्णन</h5>
-              <p class="card-text">मा. राज्यपाल, महाराष्ट्र राज्य</p>
-            </div>
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="col">
-          <div class="card h-100 text-center shadow-sm">
-            <img
-              src="images/manyavar/2.jpg"
-              class="card-img-top"
-              alt="Leader 2"
-            />
-            <div class="card-body">
-              <h5 class="card-title">श्री. देवेंद्र फडणवीस</h5>
-              <p class="card-text">मा. मुख्यमंत्री, महाराष्ट्र राज्य</p>
-            </div>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="col">
-          <div class="card h-100 text-center shadow-sm">
-            <img
-              src="images/manyavar/3.jpg"
-              class="card-img-top"
-              alt="Leader 3"
-            />
-            <div class="card-body">
-              <h5 class="card-title">श्री. एकनाथ शिंदे</h5>
-              <p class="card-text">मा. उपमुख्यमंत्री, महाराष्ट्र राज्य</p>
-            </div>
-          </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="col">
-          <div class="card h-100 text-center shadow-sm">
-            <img
-              src="images/manyavar/4.jpg"
-              class="card-img-top"
-              alt="Leader 4"
-            />
-            <div class="card-body">
-              <h5 class="card-title">श्री. अजित पवार</h5>
-              <p class="card-text">मा. उपमुख्यमंत्री, महाराष्ट्र राज्य</p>
-            </div>
-          </div>
-        </div>
-        <!-- Card 5 -->
-        <div class="col">
-          <div class="card h-100 text-center shadow-sm">
-            <img
-              src="images/manyavar/5.jpg"
-              class="card-img-top"
-              alt="Leader 5"
-            />
-            <div class="card-body">
-              <h5 class="card-title">श्री. जयकुमार गोरे</h5>
-              <p class="card-text">
-                मा. मंत्री, ग्रामविकास व पंचायतराज विभाग, महाराष्ट्र राज्य
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Card 6 -->
-        <div class="col">
-          <div class="card h-100 text-center shadow-sm">
-            <img
-              src="images/manyavar/6.jpg"
-              class="card-img-top"
-              alt="Leader 6"
-            />
-            <div class="card-body">
-              <h5 class="card-title">श्री. योगेश कदम</h5>
-              <p class="card-text">
-                मा. राज्य मंत्री, ग्रामविकास व पंचायतराज विभाग, महाराष्ट्र राज्य
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Card 7 -->
-        <div class="col">
-          <div class="card h-100 text-center shadow-sm">
-            <img
-              src="images/manyavar/7.jpg"
-              class="card-img-top"
-              alt="Leader 6"
-            />
-            <div class="card-body">
-              <h5 class="card-title">श्री. एकनाथ डवले</h5>
-              <p class="card-text">
-                मा. प्रधान सचिव, ग्रामविकास व पंचायतराज विभाग, महाराष्ट्र राज्य
-              </p>
-            </div>
-          </div>
-        </div>
+    <div class="container my-4">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <h4 class="mb-0">नकाशा</h4>
       </div>
+      <img src="images/phaltan-map-details.jpg" width="100%" alt="" />
     </div>
 
     <footer>
